@@ -1,20 +1,20 @@
-# Welcome to acnaweb-lib-proj 👋
-![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+# Welcome to acnaweblib
 
-> acnaweblib is a Python library for testing
+![version](https://img.shields.io/badge/version-0.1.13-blue.svg?cacheSeconds=2592000) 
+![licence](https://img.shields.io/badge/licence-MIT-green.svg?cacheSeconds=2592000)
 
-### 🏠 [Homepage](https://github.com/acnaweb/acnaweb-lib)
-
+This is a Python library for testing
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install acnaweblib.
+`acnaweblib` supports Python 3.8 and higher.
 
+### System-wide or user-wide installation with pipx
 
-## Install
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `acnaweblib`.
 
 ```bash
-pip install acnaweblib
+$ pip install acnaweblib
 ```
 
 ## Usage
@@ -27,6 +27,18 @@ result = calculator.add(4,2)
 
 ```
 
+
+## Developing
+
+Development requires Python 3.8+; otherwise you'll get false positive type failures.
+CI will run tests on older Python versions.
+
+To work on the `acnaweblib` code: pull the repository, create and activate a virtualenv, then run:
+
+```bash
+make dev
+```
+
 ## Author
 
 👤 **Antonio Carlos de Lima Junior**
@@ -34,11 +46,3 @@ result = calculator.add(4,2)
 * Website: https://www.linkedin.com/in/acnaweb/
 * Github: [@acnaweb](https://github.com/acnaweb)
 * LinkedIn: [@acnaweb](https://linkedin.com/in/acnaweb)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
