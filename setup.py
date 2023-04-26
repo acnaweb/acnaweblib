@@ -8,7 +8,7 @@ requirements = []
 
 setup(
     name='acnaweblib',
-    version='0.1.13',
+    version='0.1.14',
     # description='Short description',
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -17,8 +17,13 @@ setup(
     url='https://github.com/acnaweb/acnaweb-lib',
     packages=find_packages(include=['acnaweblib', 'acnaweblib.*']),
     install_requires=requirements,
-    classifiers=[                
-        'Programming Language :: Python :: 3.8',        
+    classifiers=[               
+        'Development Status :: 5 - Production/Stable',
+        'Programming Language :: Python :: 3',        
+        'Operating System :: OS Independent',
+        'Natural Language :: Portuguese (Brazilian)',
+        'Natural Language :: English',
+
       ],
     keywords='library test',
     license='MIT',
