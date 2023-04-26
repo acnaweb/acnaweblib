@@ -1,10 +1,10 @@
 clean: 
 	pip uninstall acnaweblib -y
 
-install:
+install: clean
 	python setup.py install
 
-dev:
+dev: clean
 	pip install -e .
 	pip install -r requirements-dev.txt
 
@@ -14,11 +14,16 @@ build:
 help:
 	python setup.py --help-commands	
 
+lint:
+	python setup.py flake8
+
+test:
+	python setup.py test	
+
 package: 
 	rm -rf dist
 	python setup.py sdist 
 
-publish: package
+push: test package 
 	twine upload dist/*
-
 

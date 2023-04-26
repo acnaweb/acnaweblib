@@ -1,6 +1,6 @@
 # Welcome to acnaweblib
 
-![version](https://img.shields.io/badge/version-0.1.14-blue.svg?cacheSeconds=2592000) 
+![version](https://img.shields.io/badge/version-0.1.16-blue.svg?cacheSeconds=2592000) 
 ![licence](https://img.shields.io/badge/licence-MIT-green.svg?cacheSeconds=2592000)
 
 This is a Python library for testing
@@ -50,3 +50,5 @@ make dev
 ## References
 
 - [Pypi Classifiers](https://pypi.org/classifiers/)
+- [Python Packaging Tutorial](https://www.devdungeon.com/content/python-packaging-tutorial)
+- [A Practical Guide to Using Setup.py](https://godatadriven.com/blog/a-practical-guide-to-using-setup-py/)
