@@ -9,7 +9,7 @@ SETUP_REQUIRES = ['flake8', 'pytest-runner']
 
 setup(
     name='acnaweblib',
-    version='0.1.16',
+    version='0.1.18',
     long_description=readme(),
     long_description_content_type="text/markdown",
     author='Antonio Carlos de Lima Junior',

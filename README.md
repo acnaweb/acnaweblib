@@ -1,6 +1,6 @@
 # Welcome to acnaweblib
 
-![version](https://img.shields.io/badge/version-0.1.16-blue.svg?cacheSeconds=2592000) 
+![version](https://img.shields.io/badge/version-0.1.18-blue.svg?cacheSeconds=2592000) 
 ![licence](https://img.shields.io/badge/licence-MIT-green.svg?cacheSeconds=2592000)
 
 This is a Python library for testing
@@ -30,13 +30,26 @@ result = calculator.add(4,2)
 ## Developing
 
 Development requires Python 3.8+; otherwise you'll get false positive type failures.
-CI will run tests on older Python versions.
 
 To work on the `acnaweblib` code: pull the repository, create and activate a virtualenv, then run:
 
 ```bash
 make dev
 ```
+
+Testing
+
+```bash
+make test
+```
+
+Publish
+
+```bash
+make push
+```
+
+
 
 ## Author
 
