@@ -1,3 +1,6 @@
+clean: 
+	pip uninstall acnaweblib -y
+
 install:
 	python setup.py install
 
@@ -7,8 +10,6 @@ dev:
 
 build:
 	python -m build
-clean: 
-	pip uninstall acnaweblib -y
 
 help:
 	python setup.py --help-commands	
