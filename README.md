@@ -1,6 +1,6 @@
 # Welcome to acnaweblib
 
-![version](https://img.shields.io/badge/version-0.1.18-blue.svg?cacheSeconds=2592000) 
+![version](https://img.shields.io/badge/version-0.1.19-blue.svg?cacheSeconds=2592000) 
 ![licence](https://img.shields.io/badge/licence-MIT-green.svg?cacheSeconds=2592000)
 
 This is a Python library for testing

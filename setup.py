@@ -9,12 +9,12 @@ SETUP_REQUIRES = ['flake8', 'pytest-runner']
 
 setup(
     name='acnaweblib',
-    version='0.1.18',
+    version='0.1.19',
     long_description=readme(),
     long_description_content_type="text/markdown",
     author='Antonio Carlos de Lima Junior',
     author_email='antonioclj.ac@gmail.com',
-    url='https://github.com/acnaweb/acnaweb-lib',
+    url='https://github.com/acnaweb/acnaweblib',
     packages=find_packages(include=['acnaweblib', 'acnaweblib.*']),
     install_requires=REQUIREMENTS,
     setup_requires=SETUP_REQUIRES,
